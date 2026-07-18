@@ -41,12 +41,13 @@ By default, the script picks completely random answers (ranging from "Strongly A
 
 Find this line in the script:
 ```javascript
-const randomIndex = Math.floor(Math.random() * choices.length); 
+const randomIndex = Math.floor(Math.random() * choices.length);
+```
 
 Change it to:
-
+```javascript
 const randomIndex = Math.floor(Math.random() * 2); 
-
+```
 (This limits the randomness to only the first 2 options available).
 
 ⚠️ Disclaimer
@@ -57,11 +58,6 @@ const randomIndex = Math.floor(Math.random() * 2);
   - The author is not responsible for any academic or disciplinary actions taken
     by your university resulting from the use of automated tools. Use at your
     own risk.
-
-📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for
-details.
 
 تکمیل‌کننده خودکار فرم‌های ارزشیابی هم‌آوا / سما 🎓🤖
 
@@ -109,11 +105,15 @@ Tools) باز شود. ۳. به تب Console بروید. ۴. 👉 اینجا کل
 
 این خط را در کد پیدا کنید:
 
+```javascript
 const randomIndex = Math.floor(Math.random() * choices.length); 
+```
 
 و به این شکل تغییر دهید:
 
+```javascript
 const randomIndex = Math.floor(Math.random() * 2); 
+```
 
 (با این کار، انتخاب تصادفی فقط محدود به گزینه‌های اول و دوم می‌شود).
 
@@ -124,9 +124,3 @@ const randomIndex = Math.floor(Math.random() * 2);
   - توسعه‌دهنده این اسکریپت هیچ‌گونه مسئولیتی در قبال عواقب انضباطی یا مشکلات
     آموزشی ناشی از استفاده از ابزارهای خودکار در سامانه دانشگاه ندارد. لطفاً با
     مسئولیت خودتان از آن استفاده کنید.
-
-📄 لایسنس (مجوز)
-
-این پروژه تحت لایسنس MIT منتشر شده است - برای جزئیات بیشتر می‌توانید فایل
-LICENSE را مطالعه کنید.
-
